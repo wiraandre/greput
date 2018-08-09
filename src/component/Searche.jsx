@@ -5,10 +5,11 @@ export default class SearchBarr extends React.Component {
   render() {
     return (
       <div>
-        <WingBlank>
-          <div className="sub-title">mauk makan apa</div>
-        </WingBlank>
-        <SearchBar placeholder="Search" maxLength={8} cancelText={'batalin'} />
+        <SearchBar
+          placeholder="mauk makan apa"
+          maxLength={8}
+          cancelText={'batalin'}
+        />
         <WhiteSpace />
       </div>
     );

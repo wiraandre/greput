@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tabs, WhiteSpace, Badge } from 'antd-mobile';
-import Searche from './Searche';
+
+import Page2 from '../container/Page2';
 
 const tabs = [
   { title: <Badge>Transportasi</Badge> },
@@ -15,7 +16,7 @@ const tabs2 = [
 ];
 
 const Tabb = () => (
-  <div>
+  <div style={{ height: 'auto' }}>
     <Tabs
       tabs={tabs}
       initialPage={1}
@@ -35,15 +36,8 @@ const Tabb = () => (
         }}>
         Content of first tab
       </div>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          height: '150px',
-          backgroundColor: '#fff'
-        }}>
-        <Searche />
+      <div>
+        <Page2 />
       </div>
       <div
         style={{

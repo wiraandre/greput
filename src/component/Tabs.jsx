@@ -18,6 +18,7 @@ const tabs2 = [
 const Tabb = () => (
   <div style={{ height: 'auto' }}>
     <Tabs
+      swipeable={false}
       tabs={tabs}
       initialPage={1}
       onChange={(tab, index) => {

@@ -38,7 +38,7 @@ export default class Carosel extends React.Component {
                 height: this.state.imgHeight
               }}>
               <img
-                src={`https://zos.alipayobjects.com/rmsportal/${val}.png`}
+                src={`https://cdn.grab.com/id/wp-content/uploads/sites/9/2016/08/hero_banner_grabfood.jpg`}
                 alt=""
                 style={{ width: '100%', verticalAlign: 'top' }}
                 onLoad={() => {

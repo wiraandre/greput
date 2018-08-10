@@ -6,15 +6,11 @@ export default class Napbar extends Component {
     return (
       <div>
         <NavBar
-          mode="dark"
-          icon={<Icon type="left" />}
+          mode="light"
+          icon={<Icon type="loading" />}
           onLeftClick={() => console.log('onLeftClick')}
-          rightContent={[
-            <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
-            <Icon key="1" type="ellipsis" />
-          ]}>
-          NavBar
-        </NavBar>
+          rightContent={['Safe mode', <Icon key="1" type="check-circle" />]}
+        />
       </div>
     );
   }

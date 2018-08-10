@@ -31,7 +31,7 @@ export default class Carosel extends React.Component {
           {this.state.data.map(val => (
             <a
               key={val}
-              href="http://www.alipay.com"
+              href=""
               style={{
                 display: 'inline-block',
                 width: '100%',

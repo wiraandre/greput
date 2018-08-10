@@ -16,17 +16,17 @@ const data = [
   {
     img: 'https://zos.alipayobjects.com/rmsportal/dKbkpPXKfvZzWCM.png',
     title: 'Meet hotel',
-    des: '不是所有的兼职汪都需要风吹日晒'
+    des: 'Mauk makan apa? udah makan apa? terserah aja ya?'
   },
   {
     img: 'https://zos.alipayobjects.com/rmsportal/XmwCzSeJiqpkuMB.png',
     title: "McDonald's invites you",
-    des: '不是所有的兼职汪都需要风吹日晒'
+    des: 'Mauk makan apa? udah makan apa? terserah aja ya?'
   },
   {
     img: 'https://zos.alipayobjects.com/rmsportal/hfVtzEhPzTUewPm.png',
     title: 'Eat the week',
-    des: '不是所有的兼职汪都需要风吹日晒'
+    des: 'Mauk makan apa? udah makan apa? terserah aja ya?'
   }
 ];
 const NUM_SECTIONS = 5;
@@ -171,8 +171,8 @@ export default class ListVieww extends React.Component {
                 {obj.des}
               </div>
               <div>
-                <span style={{ fontSize: '30px', color: '#FF6E27' }}>35</span>¥{' '}
-                {rowID}
+                <span style={{ fontSize: '30px', color: '#FF6E27' }}>37</span>
+                rebu aja
               </div>
             </div>
           </div>
